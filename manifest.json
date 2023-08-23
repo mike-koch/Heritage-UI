@@ -1,11 +1,11 @@
 {
-	"version": "5.4.0",
+	"version": "6.0.0",
 	"id": "BurnTheWitch.HeritageUI",
 	"name": "Heritage UI",
 	"updateCheck": "https://raw.githubusercontent.com/The-Jaded-Obsidian-Witch/Heritage-UI-Update-Json/main/updater.json",
 	"description": "Improves various parts of the UI by looking to the past of the WOA trilogy.",
 	"authors": [
-		"Burn The Witch"
+		"Burn, The Witch"
 	],
 	"blobsFolders": ["mod content/base/blobs"],
 	"frameworkVersion": "2.15.1",

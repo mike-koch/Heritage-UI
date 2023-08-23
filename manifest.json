@@ -1,0 +1,956 @@
+{
+	"version": "5.4.0",
+	"id": "BurnTheWitch.HeritageUI",
+	"name": "Heritage UI",
+	"updateCheck": "https://raw.githubusercontent.com/The-Jaded-Obsidian-Witch/Heritage-UI-Update-Json/main/updater.json",
+	"description": "Improves various parts of the UI by looking to the past of the WOA trilogy.",
+	"authors": [
+		"Burn The Witch"
+	],
+	"blobsFolders": ["mod content/base/blobs"],
+	"frameworkVersion": "2.15.1",
+	"localisation": {
+		"english": {
+			"UI_HERITAGE_QUICK_LOAD": "Quick Load",
+			"UI_HERITAGE_QUICK_SAVE": "Quick Save",
+			"UI_HERITAGE_SEASON_1": "Season 1",
+			"UI_HERITAGE_SEASON_2": "Season 2",
+			"UI_HERITAGE_SEASON_3": "Season 3",
+			"UI_SEASON_1_HEADER": "HITMAN",
+			"UI_SEASON_2_HEADER": "HITMAN 2",
+			"UI_SEASON_3_HEADER": "HITMAN 3",
+			"UI_HERITAGE_ESC_TITLE": "Escalations",
+			"UI_HERITAGE_GAMEMODES": "Game Modes",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Expansion Content",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Free Starter Pack",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Seven Deadly Sins Collection",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Silver Edition",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Game of the Year Edition",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: The Full Experience",
+			"UI_HERITAGE_GAMEMODE": "Game Mode",
+			"UI_HERITAGE_EVERGREEN": "Freelancer",
+			"UI_HERITAGE_DASHBOARD": "Dashboard",
+			"UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_SARAJEVOSIX_HEADER": "HITMAN: PlayStation 4 Exclusive",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S1": "Season 1",
+			"UI_ITEM_SUBTYPE_S1": "Season 1",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S2": "Season 2",
+			"UI_ITEM_SUBTYPE_S2": "Season 2",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S3": "Season 3",
+			"UI_ITEM_SUBTYPE_S3": "Season 3",
+			"UI_ITEM_SUBTYPE_S8": "Freelancer",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S8": "Freelancer",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S5": "GOTY",
+			"UI_ITEM_SUBTYPE_S5": "GOTY",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S6": "Deluxe",
+			"UI_ITEM_SUBTYPE_S6": "Deluxe",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S7": "Deadly Sins",
+			"UI_ITEM_SUBTYPE_S7": "Deadly Sins",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_S0": "Signature",
+			"UI_ITEM_SUBTYPE_S0": "Signature",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_PISTOL": "Dart Guns",
+			"UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_PISTOL": "Dart Gun"
+		},
+		"french": {
+			"UI_HERITAGE_SEASON_1": "Saison 1",
+			"UI_HERITAGE_SEASON_2": "Saison 2",
+			"UI_HERITAGE_SEASON_3": "Saison 3",
+			"UI_SEASON_1_HEADER": "HITMAN",
+			"UI_SEASON_2_HEADER": "HITMAN 2",
+			"UI_SEASON_3_HEADER": "HITMAN 3",
+			"UI_HERITAGE_ESC_TITLE": "Escalades",
+			"UI_HERITAGE_GAMEMODES": "Modes de Jeu",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Contenu D'Extension",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Pack de Démarrage Gratuit",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Collections des Sept Péchés Capitaux",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Édition Argent",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Édition Jeu de L'Année",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: L'Expérience Complète",
+			"UI_HERITAGE_GAMEMODE": "Game modes",
+			"UI_HERITAGE_EVERGREEN": "Freelancer",
+			"UI_HERITAGE_DASHBOARD": "Dashboard"
+		},
+		"italian": {},
+		"german": {},
+		"spanish": {
+			"UI_HERITAGE_SEASON_1": "Temporada 1",
+			"UI_HERITAGE_SEASON_2": "Temporada 2",
+			"UI_HERITAGE_SEASON_3": "Temporada 3",
+			"UI_SEASON_1_HEADER": "HITMAN",
+			"UI_SEASON_2_HEADER": "HITMAN 2",
+			"UI_SEASON_3_HEADER": "HITMAN 3",
+			"UI_HERITAGE_ESC_TITLE": "Escalations",
+			"UI_HERITAGE_GAMEMODES": "Modos de Juego",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Contenido de Expansión",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Paquete de Inicio Gratuito",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Colección Los Siete Pecados Capitales",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Edición Plata",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Edición Juego del Año",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: La Experiencia Completa",
+			"UI_HERITAGE_GAMEMODE": "Game Mode",
+			"UI_HERITAGE_EVERGREEN": "Freelancer",
+			"UI_HERITAGE_DASHBOARD": "Dashboard"
+		},
+		"russian": {
+			"UI_HERITAGE_SEASON_1": "Сезон 1",
+			"UI_HERITAGE_SEASON_2": "Сезон 2",
+			"UI_HERITAGE_SEASON_3": "Сезон 3",
+			"UI_SEASON_1_HEADER": "HITMAN",
+			"UI_SEASON_2_HEADER": "HITMAN 2",
+			"UI_SEASON_3_HEADER": "HITMAN 3",
+			"UI_HERITAGE_ESC_TITLE": "Обострения",
+			"UI_HERITAGE_GAMEMODES": "Режимы",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Контент Дополнений",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Беспланый Стартовый Набор",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Семь Смертных Грехов",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Серебрянное Издание",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Издание GOtY",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: Полное Издание",
+			"UI_HERITAGE_GAMEMODE": "Режим",
+			"UI_HERITAGE_EVERGREEN": "Фрилансер",
+			"UI_HERITAGE_DASHBOARD": "Избранное"
+		},
+		"chineseSimplified": {
+			"UI_HERITAGE_GAMEMODE": "游戏模式",
+			"UI_HERITAGE_EVERGREEN": "自由职业者",
+			"UI_HERITAGE_DASHBOARD": "特色"
+			},
+			"chineseTraditional": {
+			"UI_HERITAGE_GAMEMODE": "遊戲模式",
+			"UI_HERITAGE_EVERGREEN": "自由業者",
+			"UI_HERITAGE_DASHBOARD": "特色"
+			},
+		"japanese": {
+			"UI_HERITAGE_SEASON_1": "Season 1",
+			"UI_HERITAGE_SEASON_2": "Season 2",
+			"UI_HERITAGE_SEASON_3": "Season 3",
+			"UI_SEASON_1_HEADER": "HITMAN",
+			"UI_SEASON_2_HEADER": "HITMAN 2",
+			"UI_SEASON_3_HEADER": "HITMAN 3",
+			"UI_HERITAGE_ESC_TITLE": "エスカレーション",
+			"UI_HERITAGE_GAMEMODES": "ゲームモード",
+			"UI_MENU_PAGE_SIDE_MISSIONS_TITLE_HEADER": "Expansion Content",
+			"UI_CAMPAIGN_ICA_FACILITY_TITLE_HEADER": "Free Starter Pack",
+			"UI_MENU_PAGE_HUB_SEVEN_DEADLY_SINS_HEADER": "HITMAN 3: Seven Deadly Sins Collection",
+			"UI_MENU_PAGE_SPECIAL_ASSIGNMENTS_TITLE_HEADER": "HITMAN 2: Silver Edition",
+			"UI_CONTRACT_CAMPAIGN_WHITE_SPIDER_TITLE_HEADER": "HITMAN: Game of the Year Edition",
+			"UI_MENU_PAGE_BONUS_MISSIONS_TITLE_HEADER": "HITMAN: The Full Experience",
+			"UI_HERITAGE_GAMEMODE": "ゲームモード",
+			"UI_HERITAGE_EVERGREEN": "フリーランサー",
+			"UI_HERITAGE_DASHBOARD": "ダッシュボード"
+		}
+	},
+	"options": [
+		{
+			"name": "Vanilla",
+			"tooltip": "HITMAN WOA's default UI.",
+			"image": "framework content/UI_Base.png",
+			"type": "select",
+			"group": "UI Style"
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI'S custom UI, made to evoke Hitman 2016's UI.",
+			"image": "framework content/UI_heritage.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/heritage ui base"]
+		},
+		{
+			"name": "Heritage UI: Minimal Crosshair",
+			"tooltip": "Heritage UI'S custom UI with a minimal dot styled crosshair.",
+			"image": "framework content/UI_heritage_minimal.png",
+			"type": "select",
+			"group": "UI Style",
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"contentFolders": ["mod content/ui styles/heritage ui base minimal crosshair"]
+		},
+		{
+			"name": "Heritage UI: Alpha Style Buttons",
+			"tooltip": "Heritage UI'S custom UI with button prompts styled after the leaked alpha build.",
+			"image": "framework content/UI_heritage_alpha.png",
+			"type": "select",
+			"group": "UI Style",
+			"contentFolders": ["mod content/ui styles/heritage ui alpha"],
+			"blobsFolders": ["mod content/ui styles/blobs"]
+		},
+		{
+			"name": "Heritage UI: Alpha Style Buttons and Minimal Crosshair",
+			"tooltip": "Heritage UI'S custom UI with a minimal dot styled crosshair and button prompts styled after the leaked alpha build.",
+			"image": "framework content/ui_heritage_alpha_minimal.png",
+			"type": "select",
+			"group": "UI Style",
+			"contentFolders": ["mod content/ui styles/heritage ui alpha minimal crosshair"],
+			"blobsFolders": ["mod content/ui styles/blobs"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "HITMAN WOA'S default objective size.",
+			"image": "framework content/small.jpg",
+			"type": "select",
+			"group": "Objective Scale"
+		},
+		{
+			"name": "2016 ",
+			"tooltip": "Scales the objectives to match hitman 2016.",
+			"image": "framework content/large.jpg",
+			"type": "select",
+			"group": "Objective Scale",
+			"contentFolders": ["mod content/objscale"]
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "HITMAN WOA'S Vanilla boot logo.",
+			"image": "framework content/v_l.png",
+			"type": "select",
+			"group": "Boot Logo"
+		},
+		{
+			"name": "Legacy",
+			"tooltip": "A boot logo inspired by legacy Hitman games.",
+			"image": "framework content/v_l1png.png",
+			"type": "select",
+			"group": "Boot Logo",
+			"contentFolders": ["mod content/at logos/legacy"]
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI's custom logo.",
+			"image": "framework content/v_3png.png",
+			"type": "select",
+			"group": "Boot Logo",
+			"contentFolders": ["mod content/at logos/hui"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "2016",
+			"tooltip": "HITMAN 2016's classic logo",
+			"image": "framework content/hm.png",
+			"type": "select",
+			"group": "Boot Logo",
+			"contentFolders": ["mod content/at logos/2016"]
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "Hitman WOA's default Attraction Screen.",
+			"image": "framework content/as_base.png",
+			"type": "select",
+			"group": "Attraction Screen Background"
+		},
+		{
+			"name": "Heritage UI: Redux",
+			"tooltip": "Heritage UI'S custom attraction screen, made for the WOA rerelease.",
+			"image": "framework content/as_hui_redux.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/heritage redux attraction screen/blobs"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Heritage UI: Classic",
+			"tooltip": "Heritage UI'S old custom attraction screen, made for H3.",
+			"image": "framework content/as_hui_classic.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/heritage classic attraction screen/blobs"]
+		},
+		{
+			"name": "Hitman 2016",
+			"tooltip": "Hitman 2016's timeless attraction screen.",
+			"image": "framework content/2016 background.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/2016 attraction screen/blobs"]
+		},
+		{
+			"name": "Hitman 2016 GOTY (Variation 1)",
+			"tooltip": "Hitman 2016's GOTY's attraction screen with the ingame filter.",
+			"image": "framework content/h1gotyvar1.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/2016 goty/blobs"]
+		},
+		{
+			"name": "Hitman 2016 GOTY (Variation 2)",
+			"tooltip": "Hitman 2016's GOTY's attraction screen without the ingame filter..",
+			"image": "framework content/gotyas.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/2016 goty var 2/blobs"]
+		},
+		{
+			"name": "Hitman 2",
+			"tooltip": "Hitman 2's attraction screen.",
+			"image": "framework content/h2as.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/h2/blobs"]
+		},
+		{
+			"name": "Hitman 3",
+			"tooltip": "Hitman 3's attraction screen.",
+			"image": "framework content/h3as.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["mod content/attraction screen/h3/blobs"]
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "HITMAN 3's default main menu background.",
+			"image": "framework content/menu_base.png",
+			"type": "select",
+			"group": "Main Menu Background"
+		},
+		{
+			"name": "Heritage UI: Redux",
+			"tooltip": "Heritage UI'S custom main menu background, made for the WOA rerelease.",
+			"image": "framework content/menu_hui.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/heritage redux background/blobs"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Heritage UI: Classic",
+			"tooltip": "Heritage UI'S old main menu background, made for H3.",
+			"image": "framework content/menu_classic.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/heritage classic background/blobs"]
+		},
+		{
+			"name": "Hitman 2016 (Variation 1)",
+			"tooltip": "One of Hitman 2016's timeless backgrounds.",
+			"image": "framework content/2016_menu.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/2016 background/blobs"]
+		},
+		{
+			"name": "Hitman 2016 (Variation 2)",
+			"tooltip": "Hitman 2016's original menu background.",
+			"image": "framework content/classic_r.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/2016 background var 2/blobs"]
+		},
+		{
+			"name": "Hitman 2016 GOTY (Variation 1)",
+			"tooltip": "Hitman 2016 GOTY's in game background.",
+			"image": "framework content/classic_w1.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/2016 background goty/blobs"]
+		},
+		{
+			"name": "Hitman 2016 GOTY (Variation 2)",
+			"tooltip": "Hitman 2016 GOTY's background, without the ingame filter.",
+			"image": "framework content/classic_w2.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/2016 background goty var 2/blobs"]
+		},
+		{
+			"name": "Hitman 2",
+			"tooltip": "Hitman 2's background.",
+			"image": "framework content/h2.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["mod content/backgrounds/h2 background/blobs"]
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "Hitman WOA'S default loading screen.",
+			"image": "framework content/ls_v.png",
+			"type": "select",
+			"group": "Loading Background"
+		},
+		{
+			"name": "Heritage UI: Redux",
+			"tooltip": "Heritage UI's loading screen, remade for the WOA release.",
+			"image": "framework content/ls_R.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/Heritage Redux/content"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Heritage UI: Classic",
+			"tooltip": "Heritage UI's classic loading screen, made for H3.",
+			"image": "framework content/ls_c.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/Heritage Classic/content"]
+		},
+		{
+			"name": "Hitman 2016",
+			"tooltip": "Hitman 2016's timeless loading screen.",
+			"image": "framework content/LS_16.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/2016/content"]
+		},
+		{
+			"name": "Hitman 2016 GOTY",
+			"tooltip": "Hitman 2016 GOTY's loading screen.",
+			"image": "framework content/gotyls.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/2016 GOTY/content"]
+		},
+		{
+			"name": "Hitman 2",
+			"tooltip": "Hitman 2's loading screen.",
+			"image": "framework content/h2_ls.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/h2/content"]
+		},
+		{
+			"name": "Hitman 3",
+			"tooltip": "Hitman 3's original loading screen.",
+			"image": "framework content/h3_ls.png",
+			"type": "select",
+			"group": "Loading Background",
+			"contentFolders": ["mod content/loading screens/h3/content"]
+		},
+		{
+			
+			"name": "Vanilla",
+			"tooltip": "Hitman WOA'S Default destination backgrounds.",
+			"image": "framework content/d_v.png",
+			"type": "select",
+			"group": "Destination Backgrounds"
+		},
+		{
+			"name": "Heritage UI: Classic",
+			"tooltip": "Heritage UI's classic destination backgrounds, made for H3.",
+			"image": "framework content/d_c.png",
+			"type": "select",
+			"group": "Destination Backgrounds",
+			"blobsFolders": ["mod content/dest bgs/HUI Classic/blobs"]
+		},
+		{
+			"name": "Heritage UI: Redux",
+			"tooltip": "Heritage UI's destination backgrounds, remade for the WOA release.",
+			"image": "framework content/d_r.png",
+			"type": "select",
+			"group": "Destination Backgrounds",
+			"blobsFolders": ["mod content/dest bgs/HUI Redux/blobs"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Heritage UI: Renewed",
+			"tooltip": "Heritage UI's destination backgrounds, inspired by the GOTY backgrounds, made for Variation 1.",
+			"image": "framework content/renewed.png",
+			"type": "select",
+			"group": "Destination Backgrounds",
+			"blobsFolders": ["mod content/dest bgs/HUI white/blobs"]
+		},
+		{
+			"name": "Heritage UI: Refreshed",
+			"tooltip": "Heritage UI's destination backgrounds, inspired by the GOTY backgrounds, made for Variation 2.",
+			"image": "framework content/refresh.png",
+			"type": "select",
+			"group": "Destination Backgrounds",
+			"blobsFolders": ["mod content/dest bgs/HUI grey/blobs"]
+		},
+		{
+			"name": "Vanilla",
+			"image": "framework content/vanilla_maps.png",
+			"type": "select",
+			"tooltip": "Hitman WOA'S default map colors.",
+			"group": "Map Colors"
+		},
+		{
+			"name": "Heritage UI",
+			"image": "framework content/2016_maps.png",
+			"type": "select",
+			"group": "Map Colors",
+			"tooltip": "Heritage UI's custom map colors, mimicking Hitman 2016.",
+			"contentFolders": ["mod content/map"],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "HITMAN WOA's vanilla main menu.",
+			"image": "framework content/menu_base.png",
+			"type": "select",
+			"group": "Main Menu"
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI'S custom main menu, combining the featured and live catergories to make the dashboard. It also moves the VR button as to not impede menu flow.",
+			"image": "framework content/hmm.png",
+			"type": "select",
+			"group": "Main Menu",
+			"blobsFolders": [
+				"mod content/menus/main menu fix/blobs"
+			],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "WOA's default custom career menu.",
+			"image": "framework content/vanilla_career.png",
+			"type": "select",
+			"group": "Career Menu"
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI'S custom career menu.",
+			"image": "framework content/CAREER_HUI.png",
+			"type": "select",
+			"group": "Career Menu",
+			"blobsFolders": [
+				"mod content/menus/career menu/blobs"
+			],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "WOA's default destination menu.",
+			"image": "framework content/vanilla_d.png",
+			"type": "select",
+			"group": "Destination Menu"
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI'S custom destination menu.",
+			"image": "framework content/HUI_DEST.png",
+			"type": "select",
+			"group": "Destination Menu",
+			"blobsFolders": [
+				"mod content/menus/destination menu/blobs"
+			],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "WOA's default story menu.",
+			"image": "framework content/camp_v.png",
+			"group": "Campaign Menu",
+			"type": "select"
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI'S custom story menu.",
+			"image": "framework content/cp_hui.png",
+			"type": "select",
+			"group": "Campaign Menu",
+			"blobsFolders": [
+				"mod content/menus/story menu/blobs"
+			],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "WOA's default gamemodes menu.",
+			"image": "framework content/GM_V.png",
+			"type": "select",
+			"group": "Gamemodes Menu"
+		},
+		{
+			"name": "Heritage UI",
+			"tooltip": "Heritage UI'S custom gamemodes menu.",
+			"image": "framework content/hui_gm.png",
+			"type": "select",
+			"group": "Gamemodes Menu",
+			"blobsFolders": [
+				"mod content/menus/gamemodes menu/blobs"
+			],
+			"enabledByDefault": true
+		},
+		{
+			"name": "Off",
+			"type": "select",
+			"group": "Quick Save/Load"
+		},
+		{
+			"name": "On",
+			"tooltip": "Adds quick save/load buttons to the pause menu.",
+			"image": "framework content/quicksave.png",
+			"type": "select",
+			"blobsFolders": [
+				"mod content/menus/quick save/blobs"
+			],
+			"group": "Quick Save/Load",
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"type": "select",
+			"tooltip": "HITMAN WOA's default item names.",
+			"image": "framework content/defaultnames.png",
+			"group": "Item Names"
+		},
+		{
+			"name": "Heritage",
+			"type": "select",
+			"tooltip": "Attempts to make item and suit names more consistent, following a naming scheme similar to HITMAN 2016.",
+			"group": "Item Names",
+			"image": "framework content/heritagenames.png",
+			"localisationOverrides": {
+				"0072D1A320470342": {
+					"english": {
+						"2327460968": "Striker 'El Matador'",
+						"1032737931": "Bartoli RR",
+						"2467944817": "Bartoli 1CE",
+						"3287482919": "ICA19 Floralballer",
+						"3643036392": "Bartoli 12G Sawed-Off",
+						"3992837816": "Bartoli 12G Sawed-Off Gold ",
+						"1925912075": "Kalmer 1",
+						"2839309394": "ICA19 F/A Covert"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"006986A5A3F98191": {
+					"english": {
+						"291383916": "Sieger 300 Rude Ruby",
+						"585698583": "ICA19 F/A Ducky Covert",
+						"1165829667": "Bartoli 0R",
+						"4292903895": "Custom 5mm Ducky",
+						"80972231": "Custom 5mm Ghost",
+						"2495675980": "Krugermeier 2-2 Ancestral",
+						"2434870416": "ICA19 Street Art",
+						"1581638557": "Serpent 666",
+						"1451051270": "Taunton 48",
+						"3255803310": "DAK X2 Brine-Damaged",
+						"3459315680": "DAK X2 Slapdash Covert",
+						"2933223810": "DAK X2 Scrap Covert",
+						"546170036": "DAK X2 Special Covert",
+						"268002322": "HX-10 Militia",
+						"2253322208": "Raptor Covert ICA",
+						"1800261393": "Raptor Covert Rude Ruby",
+						"1221743199": "DAK Covert Black",
+						"3938717844": "DAK Covert Gold",
+						"114220078": "TAC-SMG Ornamental",
+						"1918767992": "HX-7 Street Art",
+						"230765855": "Bartoli 12H Ancestral",
+						"2191608370": "Bartoli 12G Street Art",
+						"2000387264": "Bartoli 12G Sawed-Off Makeshift",
+						"3386837480": "Bartoli 12G Sawed-Off Maximalist",
+						"3201567076": "ICA TAC 12",
+						"4275385097": "ICA TAC 12 Covert",
+						"1667375680": "ICA TAC 12 Covert White",
+						"2168467540": "ICA19 Blackballer",
+						"1152286900": "ICA19 Whiteballer",
+						"4287068859": "ICA19 Redballer",
+						"3810201275": "Shashka A33 Ancestral",
+						"1667086812": "Fusil G2 Street Art",
+						"372752044": "TAC-4 AR Ornamental",
+						"3844964668": "RS-15 Makeshift",
+						"1575404294": "Shashka A33 Beast",
+						"784179770": "Kalmer 2",
+						"3491623950": "Enram HV Ornamental",
+						"3080273024": "Bartoli Hunting Rifle Covert",
+						"3732565858": "Bartoli Hunting Rifle",
+						"2066805963": "Bartoli ICA Hunting Rifle",
+						"1998520630": "Hackl Leviathan Covert",
+						"159915413": "Hackl Leviathan Ducky Covert",
+						"3489036676": "Bartoli Ancestral Hunting Rifle",
+						"2167584959": "Bartoli Dragon Hunting Rifle",
+						"2898114775": "Bartoli Majestic Hunting Rifle",
+						"1608846863": "Druzhina 34 Makeshift",
+						"2999686978": "Sieger 300 Street Art",
+						"508273131:": "Sieger 300 Ornamental",
+						"3113978184": "Bartoli DTI",
+						"3722945924": "Bartoli 12H",
+						"3882554747": "Bartoli 12H Deluxe",
+						"2058437330": "Striker Mk III"
+		
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"008D33DE8C75CACB": {
+					"english": {
+						"243861870": "Season 1"
+					},
+					"french": {
+						"243861870": "Saison 1"
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+						"243861870": "Temporada 1"
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"008322D98E1CFE04": {
+					"english": {
+						"1432256677": "Ancestral Knife",
+						"571095698": "Cat's Claw",
+						"2684151890": "Street Art Bat",
+						"1958976691": "Greedy Cane",
+						"378687878": "Iridescent Katana",
+						"4200240817": "Ornamental Katana",
+						"4178568037": "Majestic Sabre",
+						"4194997898": "Straitjacket Belt",
+						"1153451912": "Sedative Gum",
+						"2132802116": "Serpent's Bite",
+						"3411454055": "Roar Flash Grenade",
+						"1967478934": "Explosive Fountain Pen",
+						"3611983725": "Makeshift Katana",
+						"1596987004": "Dragon Briefcase",
+						"2359075170": "Brown Leather Briefcase",
+						"1423618173": "Emetic Guru Syringe",
+						"1021829317": "Emetic Guru Grenade"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"001F0F3B7F11E788": {
+					"english": {
+						"3578533398": "Jarl's Sabre",
+						"2161820740": "A rusty, old pirate sabre. Owned by Jarl, Son of Hanne, first mate to the Dread Pirate 'The Black Almond.'",
+						"2944947255": "ICA Briefcase Executive",
+						"3779994366": "ICA Briefcase Executive Mk II"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"002A8555DD95FAF5": {
+					"english": {
+						"2541770964": "Season 2"
+					},
+					"french": {
+						"2541770964": "Saison 2"
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+						"2541770964": "Temporada 2"
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"00288FE4ECA3C1FD": {
+					"english": {
+						"1094810605": "Druzhina 34 Arctic"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"0024A5A15AC9CC2F": {
+					"english": {
+						"1371055075": "Mixtape 47",
+						"2051974654": "Iconator",
+						"999525101": "Sabre",
+						"1845844159": "A cavalry sabre. Napoleonic era. Effective when used in close combat."
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"004B8C5124A49543": {
+					"english": {
+						"3944984988": "Blue Streak Suit",
+						"2874408294": "17's Signature Suit",
+						"3140229008": "Green Streak Suit",
+						"4083485844": "Black Streak Suit",
+						"1092447392": "Black & White Tuxedo",
+						"2049910903": "Black & White Tuxedo",
+						"1695519493": "Black & White Tuxedo with Gloves",
+						"1489750715": "Long Coat with Gloves",
+						"2129611827": "Long Coat",
+						"875126530": "6's Signature Coat",
+						"1635858198": "6's Signature Coat with Gloves",
+						"615312987": "Raincoat",
+						"2572931238": "Raincoat with Gloves",
+						"879295869": "White Polar Survival Suit",
+						"3362995256": "Raver Suit with Gloves",
+						"2760943898": "Lucky Ducky Suit",
+						"3191297808": "Neon Ninja Suit",
+						"630776052": "Rude Ruby Track Suit",
+						"1910239537": "Raver Suit with Bunny Mask",
+						"1667754951": "Bad Wolf Suit",
+						"2875169229": "Sandman Suit",
+						"3762946900": "Butcher Suit",
+						"2231831317": "Codename 47 Suit",
+						"1685722641": "Anthony Martinez's Suit",
+						"3223664876": "Hidden Valley Ninja Suit",
+						"1321936074": "Satu Mare Straitjacket",
+						"2803096113": "Rapacious Suit",
+						"4009319363": "Narcissus Suit",
+						"720259666": "Lotophage Suit",
+						"243279818": "Scarlet Suit",
+						"632560077": "Profligacy Suit",
+						"4188750001": "Odium Suit",
+						"2202462424": "Temper Suit",
+						"96317463": "Black Bruiser Suit",
+						"877102628": "Golden Streetwear Suit",
+						"1695305353": "Ancestral Huntsman Suit",
+						"2168599423": "Graffiti Hoody Suit",
+						"2732261783": "Scrap Poncho Suit",
+						"3617998863": "Master Freelancer Suit",
+						"60276344": "Beldingford Huntsman Suit",
+						"3750001361": "Red Dragon Suit",
+						"2887221963": "Absolution Sniping Suit",
+						"671377108": "Desert Survival Suit",
+						"1542410141": "Subject 47 Suit",
+						"1181997343": "Subject 47 Suit"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"009F430D046716BE": {
+					"english": {
+						"1507656433": "Undying Suit",
+						"3885074855": "Tropical Casual Suit",
+						"1386335940": "All-Black Suit",
+						"3619146115": "Trenchcoat with Gloves",
+						"1188663957": "Trenchcoat",
+						"3591200885": "Black Polar Survival Suit",
+						"2052724919": "Casual Undercover Suit",
+						"2347383834": "Tropical Business Suit",
+						"3045378807": "Arkian Tuxedo",
+						"3236983443": "Pirate Suit",
+						"369364440": "Sandman Suit with Jack-O-Lantern Mask",
+						"3876710900": "Cashmerian Suit",
+						"836824045": "Suburban Suit with Gloves"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"00233D8E3065C531": {
+					"english": {
+						"1199489516": "Gauze Suit"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"00985A1100E5EDDC": {
+					"english": {
+						"1574577192": "Santa Suit",
+						"3309453482": "Terminus Suit"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"008F3C517DB2A6AF": {
+					"english": {
+						"3766970434": "Season 3"
+					},
+					"french": {
+						"3766970434": "Saison 3"
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+						"3766970434": "Temporada 3"
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				}
+			},
+			"enabledByDefault": true
+		},
+		{
+			"name": "Vanilla",
+			"tooltip": "HITMAN WOA'S default item/suit sorting.",
+			"image": "framework content/sortdefault.png",
+			"type": "select",
+			"group": "Suit/Item Sorting"
+		},
+		{
+			"name": "Heritage UI (Peacock/Offline Only)",
+			"tooltip": "Heritage UI'S custom item/suit sorting. Suits are now sorted as Signature, Season # and DLC. Poison Grenades are now in the Posion catergory, the Gold Bar has been moved to distractions and Dart Guns now have their own category.",
+			"image": "framework content/hui_gm.png",
+			"type": "select",
+			"group": "Suit/Item Sorting",
+			"contentFolders": [
+				"mod content/menus/item sorting"
+			],
+			"enabledByDefault": true
+		}
+	]
+}

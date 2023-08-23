@@ -1,0 +1,37 @@
+{
+    "view": "menu3.basic.MenuTileTall",
+    "nrows": 3,
+    "ncols": 2,
+    "id": "Dashboard_Category_Arcade",
+    "groupid": 0,
+    "data": {
+        "header": "",
+        "title": "",
+        "image": "",
+        "hidebarcode": false
+    },
+    "actions": {
+        "activated": [
+            {
+            "load-async": {
+                "path": "menusystem/pages/hub/dashboard/category_arcade/result.json",
+                "onfailurebehaviour": "ignorefailures",
+                "from": {
+                    "url": "$formatstring dashboard/{$.Properties.DashboardCategory}/{$.SubscriptionId}/{$.Type}/{$.Id}/dataonly"
+                },
+                "target": "Dashboard_Category_Arcade"
+            }
+        },{
+        "call": {
+            "onmenuframe": true,
+            "method": "setBackground",
+            "args": "$res images/backgrounds/menu_bg.jpg"
+        } }
+    ],
+    "call": {
+        "onmenuframe": true,
+        "method": "setBackground",
+        "args": "$res images/backgrounds/menu_bg.jpg"
+    }
+    }
+}

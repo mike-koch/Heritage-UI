@@ -139,6 +139,42 @@
 			"UI_HERITAGE_DASHBOARD": "ダッシュボード"
 		}
 	},
+	"localisationOverrides": {
+		"008D33DE8C75CACB": {
+			"english": {
+				"243861870": "Season 1"
+			},
+			"french": {
+				"243861870": "Saison 1"
+			},
+			"italian": {},
+			"german": {},
+			"spanish": {
+				"243861870": "Temporada 1"
+			},
+			"russian": {},
+			"chineseSimplified": {},
+			"chineseTraditional": {},
+			"japanese": {}
+		},
+		"008F3C517DB2A6AF": {
+			"english": {
+				"3766970434": "Season 3"
+			},
+			"french": {
+				"3766970434": "Saison 3"
+			},
+			"italian": {},
+			"german": {},
+			"spanish": {
+				"3766970434": "Temporada 3"
+			},
+			"russian": {},
+			"chineseSimplified": {},
+			"chineseTraditional": {},
+			"japanese": {}
+		}
+	},
 	"options": [
 		{
 			"name": "Vanilla",

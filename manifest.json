@@ -1,5 +1,5 @@
 {
-	"version": "6.0.0",
+	"version": "6.0.1",
 	"id": "BurnTheWitch.HeritageUI",
 	"name": "Heritage UI",
 	"updateCheck": "https://raw.githubusercontent.com/The-Jaded-Obsidian-Witch/Heritage-UI-Update-Json/main/updater.json",
@@ -717,23 +717,6 @@
 					"chineseTraditional": {},
 					"japanese": {}
 				},
-				"008D33DE8C75CACB": {
-					"english": {
-						"243861870": "Season 1"
-					},
-					"french": {
-						"243861870": "Saison 1"
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-						"243861870": "Temporada 1"
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
 				"008322D98E1CFE04": {
 					"english": {
 						"1432256677": "Ancestral Knife",
@@ -777,23 +760,6 @@
 					"italian": {},
 					"german": {},
 					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"002A8555DD95FAF5": {
-					"english": {
-						"2541770964": "Season 2"
-					},
-					"french": {
-						"2541770964": "Saison 2"
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-						"2541770964": "Temporada 2"
 					},
 					"russian": {},
 					"chineseSimplified": {},
@@ -944,23 +910,6 @@
 					"italian": {},
 					"german": {},
 					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"008F3C517DB2A6AF": {
-					"english": {
-						"3766970434": "Season 3"
-					},
-					"french": {
-						"3766970434": "Saison 3"
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-						"3766970434": "Temporada 3"
 					},
 					"russian": {},
 					"chineseSimplified": {},

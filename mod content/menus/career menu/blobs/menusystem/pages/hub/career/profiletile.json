@@ -1,5 +1,5 @@
 {
-    "id": "$.Id",
+    "id": "$.Title",
     "controller": "contextitem",
     "view": "menu3.basic.MenuTileTall",
     "row": -0.75,

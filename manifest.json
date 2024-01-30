@@ -457,7 +457,7 @@
 		},
 		{
 			"name": "HITMAN WOA: Beta Style",
-			"tooltip": "Hitman WOA's attracion screen modified to look similar to art from the 2016 open beta.",
+			"tooltip": "Hitman WOA's attraction screen modified to look similar to art from the 2016 open beta.",
 			"image": "framework content/woabeta.png",
 			"type": "select",
 			"group": "Attraction Screen Background",
@@ -673,7 +673,7 @@
 		},
 		{
 			"name": "Heritage UI",
-			"tooltip": "Heritage UI'S custom main menu, combining the featured and live catergories to make the dashboard. It also moves the VR button as to not impede menu flow.",
+			"tooltip": "Heritage UI'S custom main menu, combining the featured and live categories to make the dashboard. It also moves the VR button as to not impede menu flow.",
 			"image": "framework content/hmm.png",
 			"type": "select",
 			"group": "Main Menu",
@@ -1584,7 +1584,7 @@
 			"002A8555DD95FAF5": {
 				"english": {
 					"1814091777": "Completed Opportunities",
-					"3705174442": "Reccomended Opportunities",
+					"3705174442": "Recommended Opportunities",
 					"2337147321": "Completing a mission is just the beginning. They are meant to be played more than once.<br><br>There are multiple plots to uncover, characters to get to know and unlocks to earn.<br><br>To get the overall story of {0} we recommend that you complete the following Opportunities.",
 					"1948079601": "The missions in HITMAN can be solved in countless ways. One approach is to uncover some of the many Opportunities and follow them through.<BR>Since this is your first time in Miami, you may choose to have a guide active from the get go.",
 					"2891556380": "Opportunities",
@@ -1830,7 +1830,7 @@
 					"275673424": "Two Opportunities have been unlocked for you, to guide you through creating your first contracts. You must complete at least one of the Opportunities to complete the tutorial.<br><br>Open your log now and track one of them by pressing {ACCEPT}.",
 					"1815448702": "Opportunities Revealed",
 					"17776027": "Both Opportunities Seized",
-					"2102706357": "You succesfully completed both Opportunities!<br>Exit the mission to edit your contract.",
+					"2102706357": "You successfully completed both Opportunities!<br>Exit the mission to edit your contract.",
 					"298463466": "Both Opportunities are missed. Restart to try again.",
 					"1838271940":"Both Opportunities Missed",
 					"1670745770": "Track the Opportunity",

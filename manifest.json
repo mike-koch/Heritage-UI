@@ -771,6 +771,9 @@
 			"blobsFolders": [
 				"mod content/menus/gamemodes menu/blobs"
 			],
+			"contentFolders": [
+				"mod content/menus/gamemodes menu/content"
+			],
 			"enabledByDefault": true
 		},
 		{
